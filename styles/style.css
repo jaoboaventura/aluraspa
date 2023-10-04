@@ -1,0 +1,169 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+  background-color: #EFEAD8;
+}
+
+nav {
+  text-align: center;
+  background-color: #b85a35;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  padding: 0 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #EFEAD8;
+}
+nav ul li a:hover {
+  background: #c76c47;
+  padding: 0.9rem 2rem;
+  color: #EFEAD8;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  width: 30%;
+  background: linear-gradient(to left, rgba(204, 116, 81, 0), #b85a35);
+  border-radius: 3px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #EFEAD8;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #EFEAD8;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #3d6141;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  font-size: 2.5rem;
+  color: #b85a35;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 25px 0 20px 0;
+  color: #3d6141;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #b85a35;
+  line-height: 1.25rem;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #b85a35;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #3d6141;
+  padding: 5rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #EFEAD8;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 550px;
+  height: 40px;
+  border: 2px solid #EFEAD8;
+  background: rgba(239, 234, 216, 0.1764705882);
+  border-radius: 50px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #233b26;
+  outline: none;
+}
+#cupom .input input {
+  border-radius: 50px;
+  height: 40px;
+  border: none;
+  width: 500px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+  background: transparent;
+  color: #EFEAD8;
+}
+#cupom button {
+  margin-top: 0.75rem;
+  outline: none;
+  text-transform: uppercase;
+  text-align: center;
+  height: 35px;
+  width: 130px;
+  background: #b85a35;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #EFEAD8;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 50px;
+}
+#cupom button:hover {
+  color: #b85a35;
+  background-color: #EFEAD8;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  border-top: 2px solid #b85a35;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  color: black;
+  background-color: #3d6141;
+}
+footer i {
+  color: #EFEAD8;
+}
+footer i:hover {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

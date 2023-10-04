@@ -1,0 +1,27 @@
+@import '../abstract/variables';
+
+nav {
+    text-align: center;
+    background-color: $cor-quaternaria;
+
+    ul {
+        
+        li {
+            display: inline-block;
+            padding: 1rem;
+            
+            a {
+                padding: 0 2rem;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: bold;
+                color: $cor-secundaria;
+                &:hover {
+                    background: $cor-quaternaria-1;
+                    padding: .9rem 2rem;
+                    color: $cor-secundaria;
+                }
+            }
+        }
+    }
+}

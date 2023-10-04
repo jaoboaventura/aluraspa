@@ -1,0 +1,18 @@
+@import '../abstract/_variables.scss'
+
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
+
+footer
+    text-align: center
+    font-size: $tamanho-texto/3
+    border-top: 2px solid $cor-quaternaria
+    margin-top: 1rem
+    padding: 1.2rem
+    color: $cor-preto
+    background-color: $cor-primaria
+    // @include bg-cores($cor-secundaria, $cor-primaria)
+    i
+        color: $cor-secundaria
+        &:hover
+            color: red

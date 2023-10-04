@@ -1,0 +1,62 @@
+@import '../abstract/variables';
+
+#cupom {
+    background-color: $cor-primaria;
+    padding: 5rem;
+    text-align: center;
+
+    .texto {
+        color: $cor-secundaria;
+
+        h2 {
+            margin: 2rem;
+            font-size: $tamanho-texto/1.7;
+        }
+    }
+
+    .input {
+        margin: 0 auto;
+        width: 550px;
+        height: 40px;
+        border: 2px solid $cor-secundaria;
+        background: $cor-secundaria-1;
+        border-radius: 50px;
+        &:hover, &:focus-within {
+            box-shadow: 1px 1px 8px 1px $cor-primaria-1;
+            outline: none;
+        }
+
+        input {
+            border-radius: 50px;
+            height: 40px;
+            border: none;
+            width: 500px;
+            outline: none;
+            text-align: center;
+            font-size: 26px;
+            background: transparent;
+            color: $cor-secundaria;
+        }
+    }
+
+    button {
+            margin-top: .75rem;
+            outline: none;
+            text-transform: uppercase;
+            text-align: center;
+            height: 35px;
+            width: 130px;
+            background: $cor-quaternaria;
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-weight: bold;
+            color: $cor-secundaria;
+            cursor: pointer;
+            border: 2px solid transparent;
+            border-radius: 50px;
+            &:hover {
+                color: $cor-quaternaria;
+                background-color: $cor-secundaria;
+            }
+    }
+}

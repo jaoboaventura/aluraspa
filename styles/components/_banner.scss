@@ -1,0 +1,30 @@
+@import '../abstract/variables';
+
+.banner {
+    background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: .9;
+
+    .inner-banner {
+        padding: 3rem;
+        width: 30%;
+        background: linear-gradient(to left, $cor-quaternaria-2, $cor-quaternaria);
+        border-radius: 3px;
+
+        h1 {
+            font-size: $tamanho-texto;
+            font-weight: bold;
+            color: $cor-secundaria;
+        }
+
+        h2 {
+            font-size: $tamanho-texto/2;
+            color: $cor-secundaria;
+        }
+    }
+}
